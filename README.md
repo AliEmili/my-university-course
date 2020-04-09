@@ -22,3 +22,7 @@ Second one was a card like.
 Third one was a three-card landing page for service information.
 <br>
 Fourth one was a card with some transitions and a great deal of tricks to implement the idea.
+<br>
+Fifth one was a landing page advertisement page for a sample camera.
+<br>
+Sixth one was four-card landing page for service information with hover effects.

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.container {
+    display: flex;
+}
+
+.cart {
+    flex: 1;
+    background: #ececec;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all linear 1s;
+}
+
+.cart:hover {
+    background: rgb(43, 93, 202);
+}
+
+.cart:hover .up,
+.cart:hover h3,
+.cart:hover p {
+    color: white;
+}
+
+.cart:hover .icon-div {
+    background: rgb(90, 127, 207);
+}
+
+.icon-div {
+    display: inline-block;
+    background-color: rgb(194, 194, 194);
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    transition: all linear 1s;
+}
+
+.up {
+    color: rgb(48, 48, 48);
+    font-size: 2em;
+    margin-top: 10px;
+    transition: all linear 1s;
+}
+
+.cart h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    transition: all linear 1s;
+}
+
+.cart p {
+    color: rgb(139, 139, 139);
+    margin-bottom: 30px;
+    transition: all linear 1s;
+}
+
+.cart a {
+    text-decoration: none;
+    color: rgb(0, 170, 105);
+}
+
+.cart a:hover {
+    font-weight: bold;
+}
